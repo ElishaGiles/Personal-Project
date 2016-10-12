@@ -1,0 +1,102 @@
+.globalHeader {
+  height: 70px;
+  width: 100vw;
+  position: fixed;
+  background: #3d4044;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+#logo {
+  background: #074b23;
+  height: 70px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#titleWrap {
+  flex-wrap: wrap;
+  width: 70px;
+  vertical-align: middle;
+  display: table-cell;
+  text-align: center;
+}
+
+#cart {
+  padding-right: 55px;
+}
+
+.firstCarousel {
+  height: 750px;
+  width: 100vw;
+  background-image: url("./Images/hunting.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.shoppingCarousel {
+  height: 415px;
+  width: 100vw;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rebate-catalog {
+  height: 415px;
+  width: 100vw;
+  background-image: url("./Images/rebate-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu {
+  height: 650px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parallax {
+  /* The image used */
+ background-image: url("./Images/parallax.jpg");
+
+ /* Set a specific height */
+ height: 550px;
+
+ /* Create the parallax scrolling effect */
+ background-attachment: fixed;
+ background-position: 50% 5%;
+ background-repeat: no-repeat;
+ background-size: cover;
+
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.news {
+  height: 800px;
+  width: 100vw;
+  background: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  height: 800px;
+  width: 100vw;
+  background: #074b23;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
