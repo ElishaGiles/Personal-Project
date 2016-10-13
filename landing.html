@@ -9,23 +9,26 @@
   </head>
   <body>
 
-<!-- place in directive -->
-  <header class="globalHeader">
-      <div id="logo">
-        <img src="./Images/remington-arms-logo.png" width="58%" height="60%">
-      </div>
-      <div> RIFLES </div>
-      <div> SHOTGUNS </div>
-      <div> HANDGUNS </div>
-      <div> AMMUNITION </div>
-      <div id="titleWrap"> OTHER PRODUCTS </div>
-      <div id="titleWrap"> CUSTOM SHOP </div>
-      <div id="titleWrap"> REMINGTON COUNTRY </div>
-      <div id="cart">
-        <img src="./Images/shopping-cart.gif">
-      </div>
-  </header>
+<!-- place in directive  / directive does not work-->
+<header-directive></header-directive>
 
+<header class="globalHeader">
+    <div id="logo" ui-sref="home">
+      <img src="./Images/remington-arms-logo.png" width="58%" height="60%">
+    </div>
+    <div ui-sref="rifles"> RIFLES </div>
+    <div ui-sref="shotguns"> SHOTGUNS </div>
+    <div ui-sref="handguns"> HANDGUNS </div>
+    <div ui-sref="ammunition"> AMMUNITION </div>
+    <div id="titleWrap" ui-sref="shop"> OTHER PRODUCTS </div>
+    <div id="titleWrap"> CUSTOM SHOP </div>
+    <div id="titleWrap" ui-sref="country"> REMINGTON COUNTRY </div>
+    <div id="cart" ui-sref="cart">
+      <img src="./Images/shopping-cart.gif">
+    </div>
+</header>
+
+<ui-view></ui-view>
 <!-- Place this somewhere other than here -->
   <section class="firstCarousel"></section>
 
@@ -48,6 +51,7 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js"></script>
-
+  <script src="./app.js"></script>
+  <script src="./views/directives/header-directive.js"></script>
   </body>
 </html>

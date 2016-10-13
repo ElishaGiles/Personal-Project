@@ -1,40 +1,45 @@
-angular.module("Remington", ['ui-router']).config(function($stateProvider, $urlRouterProvider) {
+angular.module("Remington", ['ui.router']).config(function($stateProvider, $urlRouterProvider) {
 
   $stateProvider
     .state('home', {
       url: '/',
-      templateUrl: "./views/home.html",
-      controller: 'homeController'
+      templateUrl: "./landing.html",
+      // controller:
     })
     .state('rifles', {
       url: '/rifles',
-      templateUrl: './views/cooking.html',
-      controller: 'cookingController'
+      templateUrl: "./landing.html",
+      // controller:
     })
     .state('shotguns', {
       url: '/shotguns',
-      templateUrl: './views/distance.html',
-      controller: 'distanceController'
+      templateUrl: "./landing.html",
+      // controller:
     })
     .state('handguns', {
       url: '/handguns',
-      templateUrl: './views/science.html',
-      controller: 'scienceController'
+      templateUrl: "./landing.html",
+      // controller:
     })
     .state('ammunition', {
       url: '/ammunition',
-      templateUrl: './views/currency.html',
-      controller: 'currencyController'
+      templateUrl: "./landing.html",
+      // controller:
     })
-    .state('ammunition', {
-      url: '/ammunition',
-      templateUrl: './views/currency.html',
-      controller: 'currencyController'
+    .state('shop', {
+      url: '/shop',
+      templateUrl: "./landing.html",
+      // controller:
     })
-    .state('ammunition', {
-      url: '/ammunition',
-      templateUrl: './views/currency.html',
-      controller: 'currencyController'
+    .state('country', {
+      url: '/country',
+      templateUrl: "./landing.html",
+      // controller:
+    })
+    .state('cart', {
+      url: '/shop',
+      templateUrl: "./landing.html",
+      // controller:
     })
     $urlRouterProvider
       .otherwise('/');
