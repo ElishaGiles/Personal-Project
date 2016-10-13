@@ -34,7 +34,7 @@
 .firstCarousel {
   height: 750px;
   width: 100vw;
-  background-image: url("./Images/hunting.jpg");
+  background-image: url("./Images/featureCarousel/hunting.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -51,9 +51,10 @@
 .rebate-catalog {
   height: 415px;
   width: 100vw;
-  background-image: url("./Images/rebate-image.jpg");
+  background-image: url("./Images/rebate.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 60%;
 }
 
 .menu {
