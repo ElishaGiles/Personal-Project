@@ -44,4 +44,5 @@ angular.module("Remington", ['ui.router']).config(function($stateProvider, $urlR
     $urlRouterProvider
       .otherwise('/');
 
+
 });

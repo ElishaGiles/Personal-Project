@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./landing.css"/>
     <title>Remington Clone</title>
   </head>
-  <body>
+  <body ng-controller="landingCtrl">
 
 <!-- place in directive  / directive does not work-->
 <header-directive></header-directive>
@@ -32,7 +32,7 @@
 <!-- Place this somewhere other than here -->
   <section class="firstCarousel"></section>
 
-  <section class="shoppingCarousel">Shopping Carousel</section>
+  <section class="shoppingCarousel"> {{shopping}}</section>
 
   <section class="rebate-catalog">Rebate and Catalog</section>
 
@@ -49,9 +49,11 @@
     All of the good stuff goes in here
   </footer>
 
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js"></script>
   <script src="./app.js"></script>
   <script src="./views/directives/header-directive.js"></script>
+  <script src="./landingCtrl.js"></script>
   </body>
 </html>
