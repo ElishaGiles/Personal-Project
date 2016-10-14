@@ -1,10 +1,11 @@
-angular.module("Remington", ['ui.router']).config(function($stateProvider, $urlRouterProvider) {
+angular.module("Remington", ['ui.router', 'slickCarousel'])
+  .config(function($stateProvider, $urlRouterProvider) {
 
   $stateProvider
     .state('home', {
       url: '/',
       templateUrl: "./landing.html",
-      // controller:
+      controller: 'landingCtrl'
     })
     .state('rifles', {
       url: '/rifles',
@@ -41,6 +42,7 @@ angular.module("Remington", ['ui.router']).config(function($stateProvider, $urlR
       templateUrl: "./landing.html",
       // controller:
     })
+
     $urlRouterProvider
       .otherwise('/');
 

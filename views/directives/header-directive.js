@@ -1,8 +1,9 @@
-angular.module('Remington').directive('header-directive', function($state) {
-
+angular.module('Remington')
+  .directive('headerDirective', function($state) {
   return {
     restrict: 'EA',
-    templateURL: './views/directives/header-directive.html'
-  }
+    controller: 'landingCtrl',
+    templateUrl: './views/directives/header-directive.html'
+  };
 
-})
+});
