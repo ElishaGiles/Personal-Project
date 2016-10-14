@@ -11,11 +11,6 @@
   z-index: 999;
 }
 
-.carousel-image-container img {
-  height: 125vh;
-  width: 100vw;
-}
-
 #logo {
   background: #074b23;
   height: 70px;
@@ -42,8 +37,13 @@
   width: 100vw;
 }
 
-.carouselPicture {
-  margin-top: 70px;
+.carousel-image-container img {
+  height: 125vh;
+  width: 100vw;
+}
+
+#id.0 {
+  position: 50% 50%;
 }
 
 .shoppingCarousel {

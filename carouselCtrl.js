@@ -15,9 +15,28 @@ angular.module('Remington').controller('carouselCtrl', function($scope) {
       }
   };
 
-  $scope.pictures = ["./Images/featureCarousel/hunting.jpg", "./Images/featureCarousel/micro_pistol.jpg",
-"./Images/featureCarousel/protection.jpg", "./Images/featureCarousel/rem_783_shooting_jpg.jpg",
-"./Images/featureCarousel/Remington-R51.jpg"];
+  $scope.pictures = [
+    {
+      url:"./Images/featureCarousel/hunting.jpg",
+      id: 0
+    },
+    {
+      url:"./Images/featureCarousel/micro_pistol.jpg",
+      id: 1
+    },
+    {
+      url:"./Images/featureCarousel/protection.jpg",
+      id: 2
+    },
+    {
+      url:"./Images/featureCarousel/1460.jpg",
+      id: 3
+    },
+    {
+      url:"./Images/featureCarousel/Remington-R51.jpg",
+      id: 4
+    }
+  ];
 
   $scope.numberLoaded = true;
 
