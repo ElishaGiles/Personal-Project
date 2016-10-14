@@ -1,11 +1,9 @@
-angular.module('Remington')
-  .directive('carousel-directive', function($state, $scope) {
+angular.module('Remington').directive('carouselDirective', function($state) {
 
+  return {
+    restrict: 'EA',
+    templateUrl: './views/directives/carousel-directive.html',
+    controller: 'carouselCtrl'
+  };
 
-return {
-  restrict: 'EA',
-  templateUrl: './views/directives/carousel-directive.html',
-  controller: './carouselCtrl.js'
-
-
-})
+});

@@ -12,23 +12,27 @@
   </head>
   <body>
 
-<!-- place in directive  / directive does not work-->
+
 <header-directive></header-directive>
+
+<carousel-directive></carousel-directive>
 
 <ui-view></ui-view>
 
-<carousel-directive></carousel-directive>
-<!-- Place this somewhere other than here -->
+<footer-directive></footer-directive>
 
   </body>
-    <script src="../bower_components/jquery/jquery.js"></script>
-    <script src="../bower_components/angular/angular.js"></script>
-    <script src="../bower_components/slick-carousel/slick/slick.js"></script>
-    <script src="../bower_components/angular-slick-carousel/dist/angular-slick.min.js"></script>
+
+      <script src="../bower_components/jquery/dist/jquery.js"></script>
+      <script src="../bower_components/angular/angular.js"></script>
+      <script src="../bower_components/slick-carousel/slick/slick.js"></script>
+      <script src="../bower_components/angular-slick-carousel/dist/angular-slick.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js"></script>
   <script src="./app.js"></script>
   <script src="./landingCtrl.js"></script>
   <script src="./views/directives/carousel-directive.js"></script>
   <script src="./views/directives/header-directive.js"></script>
+  <script src="./carouselCtrl.js"></script>
+  <script src="./views/directives/footer-directive.js"></script>
 </html>

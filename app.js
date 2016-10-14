@@ -29,7 +29,7 @@ angular.module("Remington", ['ui.router', 'slickCarousel'])
     })
     .state('shop', {
       url: '/shop',
-      templateUrl: "./landing.html",
+      templateUrl: "./shop.html",
       // controller:
     })
     .state('country', {

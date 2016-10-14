@@ -8,6 +8,12 @@
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
+  z-index: 999;
+}
+
+.carousel-image-container img {
+  height: 125vh;
+  width: 100vw;
 }
 
 #logo {
@@ -34,9 +40,10 @@
 .firstCarousel {
   height: 750px;
   width: 100vw;
-  background-image: url("./Images/featureCarousel/hunting.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+}
+
+.carouselPicture {
+  margin-top: 70px;
 }
 
 .shoppingCarousel {
