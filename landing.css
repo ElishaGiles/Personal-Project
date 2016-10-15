@@ -42,12 +42,12 @@
   width: 100vw;
 }
 
-#id.0 {
-  position: 50% 50%;
+#0 {
+  
 }
 
 .shoppingCarousel {
-  height: 415px;
+  height: 400px;
   width: 100vw;
   background: #fff;
   display: flex;
