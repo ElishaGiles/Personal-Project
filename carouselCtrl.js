@@ -3,7 +3,7 @@ angular.module('Remington').controller('carouselCtrl', function($scope) {
 
   $scope.slickConfig = {
       enabled: true,
-      autoplay: true,
+      autoplay: false,
       draggable: false,
       autoplaySpeed: 3000,
       method: {},
@@ -16,25 +16,25 @@ angular.module('Remington').controller('carouselCtrl', function($scope) {
   };
 
   $scope.pictures = [
-    {
-      url:"./Images/featureCarousel/hunting.jpg",
-      id: 0
-    },
-    {
-      url:"./Images/featureCarousel/micro_pistol.jpg",
-      id: 1
-    },
+    // {
+    //   url:"./Images/featureCarousel/hunting.jpg",
+    //   id: "zero"
+    // },
+    // {
+    //   url:"./Images/featureCarousel/micro_pistol.jpg",
+    //   id: "one"
+    // },
     {
       url:"./Images/featureCarousel/protection.jpg",
-      id: 2
+      id: "two"
     },
     {
       url:"./Images/featureCarousel/1460.jpg",
-      id: 3
+      id: "three"
     },
     {
       url:"./Images/featureCarousel/Remington-R51.jpg",
-      id: 4
+      id: "four"
     }
   ];
 

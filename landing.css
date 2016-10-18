@@ -37,15 +37,38 @@
   width: 100vw;
 }
 
+.dots {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 50px;
+  z-index: 1;
+}
+
 .carousel-image-container img {
   height: 125vh;
   width: 100vw;
 }
 
-#0 {
+#zero {
+  height: 100%;
+}
+
+#one {
+  height: 75%;
+}
+
+#two {
   
 }
 
+#dot1 {
+  background-image: url("./Images/empty_circle.gif");
+  height: 50px;
+  width: 50px;
+  z-index: 1;
+  background-color: #ccc;
+}
 .shoppingCarousel {
   height: 400px;
   width: 100vw;
