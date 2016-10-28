@@ -2,16 +2,16 @@
   <section class="firstCarousel">
     <slick settings="slickConfig" ng-if="numberLoaded">
       <div class="carouselPicture" ng-repeat="i in pictures">
-         <div class="carousel-image-container">
+         <div class="carousel-image-container {{i.id}}">
             <img id={{i.id}} src={{i.url}}>
-            <div class="dots">
-              <div id="dot1"></div>
-              <div id="dot1"></div>
-              <div id="dot1"></div>
-              <div id="dot1"></div>
-              <div id="dot1"></div>
-            </div>
          </div>
       </div>
     </slick>
+    <div class="dots">
+      <div id="dot1"></div>
+      <div id="dot1"></div>
+      <div id="dot1"></div>
+      <div id="dot1"></div>
+      <div id="dot1"></div>
+    </div>
   </section>
