@@ -3,7 +3,7 @@ angular.module('Remington').controller('carouselCtrl', function($scope) {
 
   $scope.slickConfig = {
       enabled: true,
-      autoplay: false,
+      autoplay: true,
       draggable: false,
       autoplaySpeed: 3000,
       method: {},
@@ -16,14 +16,14 @@ angular.module('Remington').controller('carouselCtrl', function($scope) {
   };
 
   $scope.pictures = [
-    // {
-    //   url:"./Images/featureCarousel/hunting.jpg",
-    //   id: "zero"
-    // },
-    // {
-    //   url:"./Images/featureCarousel/micro_pistol.jpg",
-    //   id: "one"
-    // },
+    {
+      url:"./Images/featureCarousel/hunting.jpg",
+      id: "zero"
+    },
+    {
+      url:"./Images/featureCarousel/micro_pistol.jpg",
+      id: "one"
+    },
     {
       url:"./Images/featureCarousel/protection.jpg",
       id: "two"
