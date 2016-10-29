@@ -33,7 +33,7 @@ angular.module('Remington').controller('carouselCtrl', function($scope) {
       id: "three"
     },
     {
-      url:"./Images/featureCarousel/Remington-R51.jpg",
+      url:"./Images/featureCarousel/R51.jpg",
       id: "four"
     }
   ];

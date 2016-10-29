@@ -49,6 +49,10 @@
   cursor: pointer;
 }
 
+    #pointer:hover {
+      text-decoration: underline;
+    }
+
 .stick {
   background: #3d4044;
   height: 70px;
@@ -95,7 +99,8 @@
 }
 
 #two {
-  zoom: 120%;
+  zoom: 130%;
+  margin-top: -20px;
 }
 
 .two {
@@ -104,6 +109,10 @@
 
 #four {
 
+}
+
+.four {
+  height: 125vh;
 }
 
 #dot1 {
@@ -169,7 +178,13 @@
   margin-left: 15vw;
   margin-top: 10vh;
   font-size: 24px;
+  font-family: 'Oswald', sans-serif;
   line-height: 1;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 .rebate-btn {
@@ -187,6 +202,12 @@
   margin-top: 10vh;
   font-size: 24px;
   line-height: 1;
+  font-family: 'Oswald', sans-serif;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 .right-column img {
@@ -217,7 +238,176 @@
   width: 20%;
   margin-right: 25px;
   margin-top: 25px;
+  position: relative;
 }
+
+    #big-game {
+      position: absolute;
+      margin-left: -380px;
+      margin-top: 92px;
+      color: #fff;
+      font-weight: bold;
+      font-size: 26px;
+      font-family: 'Oswald', sans-serif;
+      text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    }
+
+    #small-game {
+      position: absolute;
+      margin-left: -130px;
+      margin-top: 92px;
+      color: #fff;
+      font-weight: bold;
+      font-size: 26px;
+      font-family: 'Oswald', sans-serif;
+      text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    }
+
+    #waterfowl {
+      position: absolute;
+      margin-top: 92px;
+      margin-left: 128px;
+      color: #fff;
+      font-weight: bold;
+      font-size: 26px;
+      font-family: 'Oswald', sans-serif;
+      text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    }
+
+    #upland {
+      position: absolute;
+      margin-top: 92px;
+      margin-left: 370px;
+      color: #fff;
+      font-weight: bold;
+      font-size: 26px;
+      font-family: 'Oswald', sans-serif;
+      text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    }
+
+    #turkey {
+      position: absolute;
+      margin-top: 264px;
+      margin-left: -380px;
+      color: #fff;
+      font-weight: bold;
+      font-size: 26px;
+      font-family: 'Oswald', sans-serif;
+      text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    }
+
+    #predator {
+      position: absolute;
+      margin-top: 259px;
+      margin-left: -130px;
+      text-align: center;
+      color: #fff;
+      font-weight: bold;
+      font-size: 26px;
+      font-family: 'Oswald', sans-serif;
+      text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    }
+
+    #range {
+      position: absolute;
+      margin-top: 259px;
+      margin-left: 120px;
+      text-align: center;
+      color: #fff;
+      font-weight: bold;
+      font-size: 26px;
+      font-family: 'Oswald', sans-serif;
+      text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    }
+
+    #tactical {
+      position: absolute;
+      margin-top: 264px;
+      margin-left: 370px;
+      color: #fff;
+      font-weight: bold;
+      font-size: 26px;
+      font-family: 'Oswald', sans-serif;
+      text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    }
+
+    #personal-protection {
+      position: absolute;
+      margin-top: 435px;
+      margin-left: -250px;
+      text-align: center;
+      color: #fff;
+      font-weight: bold;
+      font-size: 26px;
+      font-family: 'Oswald', sans-serif;
+      text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    }
+
+    #security {
+      position: absolute;
+      margin-top: 440px;
+      text-align: center;
+      color: #fff;
+      font-weight: bold;
+      font-size: 26px;
+      font-family: 'Oswald', sans-serif;
+      text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    }
+
+    #competition {
+      position: absolute;
+      margin-top: 440px;
+      margin-left: 240px;
+      color: #fff;
+      font-weight: bold;
+      font-size: 26px;
+      font-family: 'Oswald', sans-serif;
+      text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    }
 
 .greenify {
   height: 20%;
