@@ -1,4 +1,4 @@
-angular.module('Remington').controller('carouselCtrl', function($scope) {
+angular.module('Remington').controller('carouselCtrl', function($scope, $rootScope, $state) {
 
 
   $scope.slickConfig = {
